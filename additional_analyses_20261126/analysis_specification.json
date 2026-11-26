@@ -1,0 +1,27 @@
+{
+  "status": "exploratory post-review sensitivity analyses",
+  "primary_time_window_months": 6,
+  "secondary_time_window_months": 12,
+  "cohorts_refitted": [
+    "CHARLS2015",
+    "ELSA_W8W9"
+  ],
+  "HRS": "archived aggregate estimates only; no HRS participant-level fitting",
+  "uniform_score": "all five domains standardized using final eligible sample; grip standardized within sex; available-domain mean standardized again within cohort; ddof=1",
+  "missing_covariates": "reuse archived 20 completed covariate datasets, no outcome imputation",
+  "domain_MI_scope": "available outcome records with existing covariate imputations; does not refit domain-specific imputation models",
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "numpy": "2.2.4",
+  "pandas": "2.2.3",
+  "scipy": "1.15.2",
+  "patsy": "1.0.3",
+  "pyreadstat": "1.3.8",
+  "benchmark_reproduction": "PASS: CHARLS and ELSA estimates and SEs agree within 1e-8",
+  "uniform_three_cohort_pooling": "NOT PERFORMED: uniform HRS estimate unavailable",
+  "source_hashes": {
+    "corrected_modeling_combined_private.csv": "40252574c9106c3f3ccb5749f62a3fec46502105a04805a9887b4f490572670b",
+    "corrected_imputations_private.csv.gz": "0671a3372eb5b813ca54abcd98fbb4c5ef74028f83506aebc5a6a36378a07a2f"
+  },
+  "ELSA_subpopulation_variance": "All original household clusters and strata retained with zero contributions outside fitted subpopulation.",
+  "domain_BH_family": "Five B-versus-A domain tests separately within each reanalysed cohort; not the original 10-test pooled family."
+}
