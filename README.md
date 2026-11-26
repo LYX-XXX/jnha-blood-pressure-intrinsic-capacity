@@ -43,7 +43,3 @@ Reported runtime versions are in audit/configuration.json; the HRS reimputation 
 Run `python verify_aggregate.py` from any working directory. It uses only Python standard-library modules and included aggregate tables. Verification passed for nine fixed-effect estimates and confidence intervals, 20 BH-adjusted p values and 12 paired contrast point estimates. It does not validate random-effects fitting or rerun participant-level models.
 
 `code/dependencies/` contains four historical processing and imputation modules referenced by the corrected scripts. Their presence makes the source chain inspectable; they retain original filesystem assumptions and must not be substituted for the corrected outputs. `figures_corrected.py` also expects historical plotting helpers and an evidence-path mapping not included here, so it is retained for inspection rather than advertised as a self-contained plotting command.
-
-## Additional sensitivities
-
-See additional_analyses_20261126/ for completed ELSA timing restrictions, CHARLS/ELSA domain rescaling and covariate-imputation domain sensitivities. These checks retain uncertainty, including short-interval vitality CIs crossing zero. HRS uniform scoring and three-cohort uniform-score pooling remain outstanding.
