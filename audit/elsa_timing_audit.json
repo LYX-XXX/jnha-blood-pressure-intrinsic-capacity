@@ -1,0 +1,20 @@
+{
+  "n": 1536,
+  "interview_year_counts": {
+    "2016.0": 1205,
+    "2017.0": 331
+  },
+  "nurse_year_counts": {
+    "2016.0": 651,
+    "2017.0": 345,
+    "2018.0": 287,
+    "2019.0": 253
+  },
+  "valid_month_intervals_n": 1536,
+  "interval_months_median": 2.0,
+  "interval_months_Q1": 1.0,
+  "interval_months_Q3": 25.0,
+  "interval_months_min": 0.0,
+  "interval_months_max": 35.0,
+  "negative_intervals_n": 0
+}

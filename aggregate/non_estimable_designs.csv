@@ -1,0 +1,4 @@
+﻿cohort,kind,status,clusters,strata,singletons,df
+ELSA_W8W9,archived,zero_complete_data_design_df,1377,1377,1377,0
+ELSA_W8W9,singleton_center,zero_complete_data_design_df,1377,1377,1377,0
+ELSA_W8W9,singleton_average,not_estimable_no_multipsu_strata,1377,1377,1377,0

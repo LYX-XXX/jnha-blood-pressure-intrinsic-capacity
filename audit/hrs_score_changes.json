@@ -1,0 +1,37 @@
+[
+  {
+    "field": "ic_total_z",
+    "max_absolute_change": 1.9497484344998406,
+    "correlation": 0.95779807320615
+  },
+  {
+    "field": "ic_mean_z",
+    "max_absolute_change": 1.1494048305178324,
+    "correlation": 0.9577980732061498
+  },
+  {
+    "field": "ic_cognition_z",
+    "max_absolute_change": 4.674949974836746,
+    "correlation": 0.8706537840840297
+  },
+  {
+    "field": "ic_psychology_z",
+    "max_absolute_change": 0.0,
+    "correlation": 1.0
+  },
+  {
+    "field": "ic_locomotion_z",
+    "max_absolute_change": 0.0,
+    "correlation": 1.0
+  },
+  {
+    "field": "ic_sensory_z",
+    "max_absolute_change": 0.0,
+    "correlation": 1.0
+  },
+  {
+    "field": "ic_vitality_z",
+    "max_absolute_change": 4.887716112717719,
+    "correlation": 0.723378028634404
+  }
+]

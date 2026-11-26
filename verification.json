@@ -1,0 +1,12 @@
+{
+  "source_archive": "JNHA_IC\u4fee\u6b63\u4e0e\u590d\u6838\u8bc1\u636e_20261113.zip",
+  "source_sha256": "f1222a4f59fb9108b84922e54387a5d41d1c61c3d3b64bc191e9aa61ced0407b",
+  "HRS_B_vs_A": -0.16972728943566942,
+  "fixed_B_vs_A": -0.20561507639785354,
+  "random_B_vs_A": -0.20799010720913205,
+  "fixed_recomputed_from_aggregate_inputs": -0.20561507639785354,
+  "selected_files": 38,
+  "participant_identifier_columns_detected": false,
+  "verification_scope": "Aggregate consistency and selected file structure only; no participant-level analysis rerun.",
+  "aggregate_checks": "PASS: 9 fixed estimates and CIs, 20 BH values, 12 paired point estimates"
+}

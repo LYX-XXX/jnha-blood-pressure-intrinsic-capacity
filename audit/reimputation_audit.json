@@ -1,0 +1,10 @@
+{
+  "m": 20,
+  "burn_in": 10,
+  "between_samples": 2,
+  "seed": 20261021,
+  "method": "MICE Gaussian perturbation, predictive mean matching, 20 nearest donors",
+  "statsmodels": "0.15.0",
+  "only_HRS_reimputed": true,
+  "CHARLS_ELSA_imputations_retained": true
+}

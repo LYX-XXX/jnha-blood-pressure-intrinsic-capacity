@@ -1,0 +1,8 @@
+raw_data/
+private_data/
+work/
+*.dta
+*.sav
+*.sas7bdat
+.env
+__pycache__/

@@ -1,0 +1,26 @@
+[
+  {
+    "cohort": "HRS2016",
+    "reference_base_n": 2284,
+    "composite_reference_n": 2284,
+    "final_n": 2284,
+    "sd_ddof": 1,
+    "unweighted_standardization": true
+  },
+  {
+    "cohort": "CHARLS2015",
+    "reference_base_n": 983,
+    "composite_reference_n": 838,
+    "final_n": 830,
+    "sd_ddof": 0,
+    "unweighted_standardization": true
+  },
+  {
+    "cohort": "ELSA_W8W9",
+    "reference_base_n": 1575,
+    "composite_reference_n": 1550,
+    "final_n": 1536,
+    "sd_ddof": 0,
+    "unweighted_standardization": true
+  }
+]
